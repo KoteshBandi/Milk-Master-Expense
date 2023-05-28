@@ -1,0 +1,56 @@
+
+ /* User input form contaier */
+.userinput-container {
+  display: flex;
+  justify-content: center;
+}
+
+.userinput-container form div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+
+.userinput-container form div input[type="number"]{
+  margin-top: 5px;
+  padding: 10px;
+  width: 150%;
+}
+
+.userinput-container form div button {
+  padding: 10px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.final-price {
+  padding: 10px;
+  position: relative;
+  left: 25%;
+  background-color: #ffa726;
+  color: #2962ff;
+  width: 50%;
+  text-align: center;
+}
+
+.delete {
+  background-color: #ff8a65;
+  color: #d84315;
+  border-radius: 20px;
+  cursor: pointer;
+}
